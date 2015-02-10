@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
+body {
+	background-image:url(../img/hardwood-background.jpg);
+    font-family: 'Ubuntu', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: 400;
+    font-size: 190%;
+    color: black;
+    padding-top: 4em;  
+    padding-bottom: 4em;  
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 120%;
+}
+
+.logo-picture {
+    float: left;
+    height: 120px;
+    width: 165px;
+}
+
+.basketball-picture {
+    float: right;
+    height: 120px;
+    width: 165px;
+}
+
+.search {
+    padding-top: 1em;
+}
+
+    #submit {
+    	margin: 10px;
+    }
+
+table, th, td {
+    table-layout: fixed;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F38D10;
+    border: 1px dotted white;
+    text-align: center;
+    padding: 5px;
+}
+
+p.reply {
+    background-color: #F38D10;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px dotted white;
+    padding: 5px;
+}
+
+footer {
+    padding-top: 2em;
+}
+
+@media all and (max-width: 893px) {
+    .logo-picture {
+        display: none;
+    }
+    .basketball-picture {
+        display: none;
+    }
+    body {
+        font-size: 150%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .logo-picture {
+        display: none;
+    }
+    .basketball-picture {
+        display: none;
+    }
+    body {
+        font-size: 120%;
+    }
+
+}
+
+@media all and (max-width: 432px) {
+    .logo-picture {
+        display: none;
+    }
+    .basketball-picture {
+        display: none;
+    }
+    body {
+        font-size: 100%;
+    }
+    h1 {
+        font-size: 180%;
+    }
+}
+
