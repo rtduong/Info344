@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureCloudService4" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-06.2.4">
+  <Role name="WebRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="StoredConnectionString" value="DefaultEndpointsProtocol=https;AccountName=infoqueue;AccountKey=E0YyQpaNGI0FG08gxicbVDEe2zZFsvY7NJlhEdiF5Q7/+fiZAGBhBY+Wf0frZ5Qhlm8lhNZizNA+ZIqP7Cf+Ag==" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="WorkerRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Setting1" value="" />
+      <Setting name="StoredConnectionString" value="DefaultEndpointsProtocol=https;AccountName=infoqueue;AccountKey=E0YyQpaNGI0FG08gxicbVDEe2zZFsvY7NJlhEdiF5Q7/+fiZAGBhBY+Wf0frZ5Qhlm8lhNZizNA+ZIqP7Cf+Ag==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

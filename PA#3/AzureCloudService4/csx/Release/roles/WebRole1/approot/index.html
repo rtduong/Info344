@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>PA3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <h1>Crawling the Web like Spiderman</h1>
+    <p>If Spiderman's alter ego was a news reporter like Clark Kent but for CNN or a sports guru like Sportsmaster that loves BleacherReport</p>
+
+    <section id="input">
+        <input id="text" type="text" placeholder="Enter a url to search for" />
+        <button type="button" onclick="getTitle()">Search URL Title</button>
+        <br/>
+        Title of inputted URL:
+        <div id="result"></div>
+    </section>
+
+    <h2>Dashboard</h2>
+    <section id="dashboardStats">
+        <h2>Usage Statistics</h2>
+        Status:
+        <div id="status">Crawling in progress...</div>
+        <br/>
+        CPU Utilization:
+        <div id="cpu">calculating...</div>
+        <br/>
+        RAM Available:
+        <div id="ram">calculating...</div>
+        <br/>
+        # of Messages in Queue to be Crawled:
+        <div id="togo">calculating...</div>
+        <br/>
+        # of URLs crawled:
+        <div id="crawled">calculating...</div>
+        <br/>
+        # of URLs indexed:
+        <div id="indexed">calculating...</div>
+
+    </section>
+
+    <section id="dashboardControls">
+        <h3>Command Tools: With great power comes great responsibility...</h3>
+        <button type="button" id="start" name="start" onclick="getStart()">Start Crawling</button>
+        <button type="button" id="stop" onclick="getStop()">Stop Crawling</button>
+        <button type="button" id="deleteTable" onclick="getDeleteTable()">Delete Index Table</button>
+    </section>
+</body>
+
+</html>
+

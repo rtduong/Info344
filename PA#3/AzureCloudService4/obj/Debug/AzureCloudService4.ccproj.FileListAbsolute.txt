@@ -1,0 +1,2 @@
+C:\Users\Raymond\documents\visual studio 2013\Projects\AzureCloudService4\bin\Debug\ServiceConfiguration.cscfg
+C:\Users\Raymond\documents\visual studio 2013\Projects\AzureCloudService4\bin\Debug\ServiceDefinition.csdef
