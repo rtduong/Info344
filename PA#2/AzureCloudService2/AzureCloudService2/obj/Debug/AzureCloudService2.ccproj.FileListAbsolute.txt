@@ -55,3 +55,5 @@ c:\users\raymond\documents\visual studio 2013\Projects\AzureCloudService2\AzureC
 c:\users\raymond\documents\visual studio 2013\Projects\AzureCloudService2\AzureCloudService2\obj\Debug\WebRole1\bin\zh-Hant\Microsoft.Data.OData.resources.dll
 c:\users\raymond\documents\visual studio 2013\Projects\AzureCloudService2\AzureCloudService2\obj\Debug\WebRole1\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
 c:\users\raymond\documents\visual studio 2013\Projects\AzureCloudService2\AzureCloudService2\obj\Debug\WebRole1\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Raymond\Documents\UW Stuff\2014-2015\INFO 344\Info344\PA#2\AzureCloudService2\AzureCloudService2\bin\Debug\ServiceConfiguration.cscfg
+C:\Users\Raymond\Documents\UW Stuff\2014-2015\INFO 344\Info344\PA#2\AzureCloudService2\AzureCloudService2\bin\Debug\ServiceDefinition.csdef

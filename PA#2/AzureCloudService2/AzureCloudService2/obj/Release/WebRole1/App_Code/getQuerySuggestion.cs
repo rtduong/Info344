@@ -36,7 +36,7 @@ public class getQuerySuggestion : System.Web.Services.WebService {
     {
         CloudStorageAccount storageAccount = CloudStorageAccount.Parse(ConfigurationManager.AppSettings["StorageConnectionString"]);
         CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
-        CloudBlobContainer container = blobClient.GetContainerReference("helloblob");
+        CloudBlobContainer container = blobClient.GetContainerReference("helloblob2");
         CloudBlockBlob blockBlob = container.GetBlockBlobReference("output.txt");
         try
         {

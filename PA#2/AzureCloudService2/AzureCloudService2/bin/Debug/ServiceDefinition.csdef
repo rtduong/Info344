@@ -20,10 +20,5 @@
     <Endpoints>
       <InputEndpoint name="Endpoint1" protocol="http" port="80" />
     </Endpoints>
-    <Contents>
-      <Content destination=".\">
-        <SourceDirectory path="c:\users\raymond\documents\visual studio 2013\Projects\AzureCloudService2\AzureCloudService2\rcf\Debug\WebRole1Content\" />
-      </Content>
-    </Contents>
   </WebRole>
 </ServiceDefinition>

@@ -9,14 +9,16 @@
     <AzureEnableRemoteDesktop>True</AzureEnableRemoteDesktop>
     <AzureEnableWebDeploy>False</AzureEnableWebDeploy>
     <AzureFallbackToDeleteAndRecreateIfUpgradeFails>False</AzureFallbackToDeleteAndRecreateIfUpgradeFails>
-    <AzureHostedServiceLabel>wikisearchrtd</AzureHostedServiceLabel>
-    <AzureHostedServiceName>wikisearchrtd</AzureHostedServiceName>
+    <AzureHostedServiceLabel>wikisearchrtd2</AzureHostedServiceLabel>
+    <AzureHostedServiceName>wikisearchrtd2</AzureHostedServiceName>
     <AzureEnableIntelliTrace>False</AzureEnableIntelliTrace>
     <AzureEnableProfiling>False</AzureEnableProfiling>
     <AzureServiceConfiguration>Cloud</AzureServiceConfiguration>
     <AzureSolutionConfiguration>Release</AzureSolutionConfiguration>
-    <AzureStorageAccountLabel>infoblobtest</AzureStorageAccountLabel>
-    <AzureStorageAccountName>infoblobtest</AzureStorageAccountName>
+    <AzureStorageAccountLabel>infoblob2</AzureStorageAccountLabel>
+    <AzureStorageAccountName>infoblob2</AzureStorageAccountName>
     <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
+    <EnableRemoteDebugger>True</EnableRemoteDebugger>
+    <RemoteDebuggerConnectorCertificateThumbprint>F5150E593FB89F5417893936D533F088A853EDF8</RemoteDebuggerConnectorCertificateThumbprint>
   </PropertyGroup>
 </Project>

@@ -19,11 +19,24 @@
     </Sites>
     <Endpoints>
       <InputEndpoint name="Endpoint1" protocol="http" port="80" />
+      <InstanceInputEndpoint name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.Connector" protocol="tcp" localPort="30398">
+        <AllocatePublicPortFrom>
+          <FixedPortRange min="30400" max="30424" />
+        </AllocatePublicPortFrom>
+      </InstanceInputEndpoint>
+      <InstanceInputEndpoint name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.Forwarder" protocol="tcp" localPort="31398">
+        <AllocatePublicPortFrom>
+          <FixedPortRange min="31400" max="31424" />
+        </AllocatePublicPortFrom>
+      </InstanceInputEndpoint>
     </Endpoints>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="c:\users\raymond\documents\visual studio 2013\Projects\AzureCloudService2\AzureCloudService2\rcf\Release\WebRole1Content\" />
+        <SourceDirectory path="C:\Users\Raymond\Documents\UW Stuff\2014-2015\INFO 344\Info344\PA#2\AzureCloudService2\AzureCloudService2\rcf\Release\WebRole1Content\" />
       </Content>
     </Contents>
+    <Imports>
+      <Import moduleName="RemoteDebuggerConnector" />
+    </Imports>
   </WebRole>
 </ServiceDefinition>

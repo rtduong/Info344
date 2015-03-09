@@ -11,6 +11,14 @@
 <ServiceConfiguration serviceName="AzureCloudService2" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-06.2.4">
   <Role name="WebRole1">
     <Instances count="1" />
-    <ConfigurationSettings />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.Connector.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.Connector.Version" value="2.5" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.ClientThumbprint" value="F5150E593FB89F5417893936D533F088A853EDF8" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.ServerThumbprint" value="F5150E593FB89F5417893936D533F088A853EDF8" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.TransportValidation" thumbprint="F5150E593FB89F5417893936D533F088A853EDF8" thumbprintAlgorithm="sha1" />
+    </Certificates>
   </Role>
 </ServiceConfiguration>

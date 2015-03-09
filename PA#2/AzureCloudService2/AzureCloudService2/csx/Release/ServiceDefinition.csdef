@@ -4,10 +4,27 @@
     <LocalResources>
       <LocalStorage name="DiagnosticStore" sizeInMB="4096" cleanOnRoleRecycle="false" />
     </LocalResources>
-    <ConfigurationSettings />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.ClientThumbprint" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.Connector.Enabled" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.Connector.Version" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.ServerThumbprint" />
+    </ConfigurationSettings>
     <Endpoints>
       <InputEndpoint name="Endpoint1" protocol="http" port="80" localPort="80" />
+      <InstanceInputEndpoint name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.Connector" localPort="30398" protocol="tcp">
+        <AllocatePublicPortFrom>
+          <FixedPortRange min="30400" max="30424" />
+        </AllocatePublicPortFrom>
+      </InstanceInputEndpoint>
+      <InstanceInputEndpoint name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.Forwarder" localPort="31398" protocol="tcp">
+        <AllocatePublicPortFrom>
+          <FixedPortRange min="31400" max="31424" />
+        </AllocatePublicPortFrom>
+      </InstanceInputEndpoint>
     </Endpoints>
-    <Certificates />
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteDebugger.TransportValidation" storeLocation="LocalMachine" storeName="My" />
+    </Certificates>
   </WebRole>
 </ServiceDefinition>
