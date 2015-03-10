@@ -1,0 +1,42 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
+body {
+    font-family: 'Ubuntu', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: 400;
+    font-size: 190%;
+    color: black;
+    padding-top: 3em;  
+    padding-bottom: 3em;  
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h2 {
+    font-size: 130%;
+}
+
+@media all and (max-width: 893px) {
+    body {
+        font-size: 150%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    body {
+        font-size: 120%;
+    }
+
+}
+
+@media all and (max-width: 432px) {
+    body {
+        font-size: 100%;
+    }
+    h1 {
+        font-size: 180%;
+    }
+}
+

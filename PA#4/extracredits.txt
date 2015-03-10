@@ -1,0 +1,7 @@
+1.
+
+I made some aesthetic changes to my search page that include making it responsive using bootstrap, page formatting options, and font changes. Not too fancy, but it looks better than the default appearance.
+
+4.
+
+I made search results and suggestions populate with each keystroke.  The response is pretty quick aside from the first search.
